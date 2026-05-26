@@ -53,7 +53,7 @@ The application allows users to:
 
 ---
 
-# 🧠 Priority Score Formula
+#  Priority Score Formula
 
 The priority score is computed dynamically on the server:
 
@@ -96,7 +96,7 @@ taskflow/
 
 ---
 
-# ⚙️ Tech Stack
+#  Tech Stack
 
 ## Frontend
 
@@ -119,9 +119,9 @@ taskflow/
 
 ---
 
-# 🚀 Installation & Setup
+#  Installation & Setup
 
-## 1️⃣ Clone Repository
+##  Clone Repository
 
 ```bash
 git clone <your-github-repo-link>
@@ -165,7 +165,7 @@ http://localhost:5000
 
 ---
 
-# 🎨 Frontend Setup
+#  Frontend Setup
 
 ## Navigate to frontend folder
 
@@ -199,7 +199,7 @@ http://localhost:5173
 
 ---
 
-# 📡 API Endpoints
+#  API Endpoints
 
 ## Base Route
 
@@ -209,7 +209,7 @@ http://localhost:5173
 
 ---
 
-## ➕ Create Task
+##  Create Task
 
 ### POST `/bfhl/tasks`
 
@@ -224,7 +224,7 @@ http://localhost:5173
 
 ---
 
-## 📋 Get All Tasks
+##  Get All Tasks
 
 ### GET `/bfhl/tasks`
 
@@ -243,7 +243,7 @@ http://localhost:5173
 
 ---
 
-## ✏️ Update Task
+##  Update Task
 
 ### PATCH `/bfhl/tasks/:id`
 
@@ -255,13 +255,13 @@ http://localhost:5173
 
 ---
 
-## ❌ Delete Task
+##  Delete Task
 
 ### DELETE `/bfhl/tasks/:id`
 
 ---
 
-# 📊 Bonus Stats Endpoint
+#  Bonus Stats Endpoint
 
 ## GET `/bfhl/tasks/stats`
 
@@ -281,7 +281,7 @@ Implemented using MongoDB Aggregation Pipeline.
 
 ---
 
-# 🎯 Validation Rules
+#  Validation Rules
 
 * Title → Required (3–100 characters)
 * Description → Max 500 characters
@@ -292,7 +292,7 @@ Implemented using MongoDB Aggregation Pipeline.
 
 ---
 
-# 🎨 UI Highlights
+#  UI Highlights
 
 * High-priority tasks (`priorityScore >= 50`) highlighted visually
 * Human-readable due dates
@@ -302,7 +302,7 @@ Implemented using MongoDB Aggregation Pipeline.
 
 ---
 
-# 🌍 Deployment
+#  Deployment
 
 ## Frontend Deployment
 
@@ -320,7 +320,7 @@ Implemented using MongoDB Aggregation Pipeline.
 
 ---
 
-# 🧪 Testing Checklist
+#  Testing Checklist
 
 ✅ CRUD operations working
 ✅ API validations working
@@ -331,26 +331,3 @@ Implemented using MongoDB Aggregation Pipeline.
 ✅ No page reload on task creation
 ✅ Proper error handling implemented
 
----
-
-# 📸 Screenshots
-
-Add screenshots here after deployment.
-
-Example:
-
-```md
-![Home Page](./screenshots/home.png)
-```
-
----
-
-# 👨‍💻 Author
-
-Developed by **mansi jain**
-
----
-
-# 📄 License
-
-This project is developed for educational and assessment purposes.
